@@ -1,0 +1,50 @@
+
+.footer{   
+    display:flex;
+    flex-flow:row nowrap;
+    justify-content:Center;
+    color:Black;
+    font-size:20px;
+    font-family: 'Supermercado One';
+    background-color:#dad5cd;
+}
+.Labels{
+   border:5px double white;
+   background-color:#e37262;
+   color:	#ffffff;
+   margin:5px;
+   padding:5px;
+    }
+.Here{
+   border:5px double white;
+   background-color:#b4574a;
+   color:#ffffff;
+   margin:5px;
+   padding:5px;
+}
+h1{
+    font-family:'Imprima';
+    display:flex;
+    justify-content:center;
+    font-size:40px;
+    text-shadow:4px 4px #dad5cd;
+    font-family:'Tajawal';
+}    
+.headshot{
+    width:20%;
+   
+}
+.mid{
+    background-color:white;
+    color:black;
+    align-items:center;
+    font-size:50px;
+    margin-top:50px;
+    border:3px solid black;
+}
+.aboutme{
+    border:1px solid black;   
+}
+a{
+    text-decoration:none;
+}
