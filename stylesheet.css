@@ -1,4 +1,7 @@
-
+body{
+    margin-left:200px;
+    margin-right:200px; 
+}
 .footer{   
     display:flex;
     flex-flow:row nowrap;
@@ -14,7 +17,7 @@
    color:	#ffffff;
    margin:5px;
    padding:5px;
-    }
+}
 .Here{
    border:5px double white;
    background-color:#b4574a;
@@ -40,11 +43,32 @@ h1{
     align-items:center;
     font-size:50px;
     margin-top:50px;
-    border:3px solid black;
 }
-.aboutme{
-    border:1px solid black;   
-}
+
 a{
     text-decoration:none;
+}
+.content{
+    display:flex;
+    text-align:center;
+    padding-top:20px;
+    font-size:20px;
+    font-family:'Tajawal';
+}
+img{
+    width:170px;
+    height:90px;
+}
+.Egon{
+    display:flex;
+    justify-content:center;
+}
+.Header{
+    display:flex;
+    justify-content:center;
+    text-align:center;
+    padding-top:20px;
+    font-size:20px;
+    font-family:'Rakkas';
+    text-decoration:underline;
 }
