@@ -31,7 +31,6 @@ h1{
     justify-content:center;
     font-size:40px;
     text-shadow:4px 4px #dad5cd;
-    font-family:'Tajawal';
 }    
 .headshot{
     width:20%;
@@ -56,8 +55,9 @@ a{
     font-family:'Tajawal';
 }
 img{
-    width:170px;
-    height:90px;
+    width:190px;
+    height:110px;
+    border:2px double black;
 }
 .Egon{
     display:flex;
@@ -71,4 +71,9 @@ img{
     font-size:20px;
     font-family:'Rakkas';
     text-decoration:underline;
+}
+.portfolioImage
+{
+  display:flex;
+  flex-wrap: wrap;
 }
